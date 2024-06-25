@@ -2,7 +2,7 @@ import Displays.CurrentConditionDispaly;
 import Displays.DummyDisplay;
 import Subject.WeatherData;
 
-public class Clinet {
+public class ObserverClient {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
 

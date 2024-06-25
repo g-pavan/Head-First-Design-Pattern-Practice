@@ -4,7 +4,7 @@ import Beverage.Beverage;
 import Beverage.Espresso;
 import Beverage.Decaf;
 
-public class Client {
+public class DecoratorClient {
     public static void main(String[] args) {
         Beverage beverage = new Espresso();
         System.out.println(beverage.getDescription() + " INR " + beverage.cost() + "/-");
